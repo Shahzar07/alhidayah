@@ -1,2 +1,3 @@
-import Storefront from '@/components/storefront';
-export default function Page() { return <Storefront />; }
+import { Suspense } from 'react';
+import Home from '@/components/home';
+export default function Page() { return <Suspense><Home /></Suspense>; }

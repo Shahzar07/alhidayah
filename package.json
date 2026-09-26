@@ -1,7 +1,7 @@
 {
-  "name": "mooko",
+  "name": "alhidayah",
   "version": "1.0.0",
-  "description": "MOOKO premium fragrance storefront — Next.js, TypeScript, GSAP and Lenis",
+  "description": "Al-Hidayah premium fragrance storefront — Next.js, TypeScript, GSAP and Lenis",
   "directories": {
     "lib": "lib"
   },
