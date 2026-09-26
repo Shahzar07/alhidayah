@@ -1,0 +1,1546 @@
+# Copyright (C) 2026 Alhidayah
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Alhidayah 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/alhidayah\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-26T12:19:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: alhidayah\n"
+
+#. Theme Name of the theme
+#. Author of the theme
+#: style.css
+msgid "Alhidayah"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://github.com/Shahzar07/alhidayah"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Premium fragrance storefront theme. Pixel-matched to the Al-Hidayah design with a warm amber hero, scent collections, product showcase, testimonials marquee, Shopify-style WooCommerce checkout, and, with the bundled Alhidayah Core plugin, a contact form inbox and Elementor widgets for every section. Includes a one-click demo importer (Appearance → Alhidayah Setup)."
+msgstr ""
+
+#: 404.php:16
+msgid "This page has drifted away"
+msgstr ""
+
+#: 404.php:19
+msgid "The page you are looking for may have moved. Let us guide you back to something beautiful."
+msgstr ""
+
+#: 404.php:20
+#: template-parts/components/bag-body.php:22
+#: template-parts/sections/contact.php:100
+msgid "Explore fragrances"
+msgstr ""
+
+#. translators: %s number of comments
+#: comments.php:19
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: inc/class-alhidayah-assets.php:55
+#, php-format
+msgid "%s added to your bag"
+msgstr ""
+
+#: inc/class-alhidayah-assets.php:56
+msgid "View bag"
+msgstr ""
+
+#: inc/class-alhidayah-assets.php:57
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: inc/class-alhidayah-assets.php:58
+msgid "Please enter your name."
+msgstr ""
+
+#: inc/class-alhidayah-assets.php:59
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: inc/class-alhidayah-assets.php:60
+msgid "Please enter a valid phone number."
+msgstr ""
+
+#: inc/class-alhidayah-assets.php:61
+msgid "Please write a little more (at least 10 characters)."
+msgstr ""
+
+#: inc/class-alhidayah-assets.php:62
+msgid "Sending…"
+msgstr ""
+
+#: inc/class-alhidayah-assets.php:63
+#: template-parts/sections/contact.php:77
+msgid "Send message"
+msgstr ""
+
+#: inc/class-alhidayah-assets.php:64
+msgid "Your saved shopping bag has been cleared"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:52
+#: inc/class-alhidayah-woocommerce.php:113
+msgid "Al-Hidayah"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:58
+msgid "Brand & announcement bar"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:59
+msgid "Home hero"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:60
+msgid "Contact details"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:61
+msgid "Footer & social links"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:73
+msgid "— Newest product —"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:81
+msgid "Brand name"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:82
+msgid "Header wordmark"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:83
+msgid "Tagline (menu drawer)"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:84
+msgid "Announcement text"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:85
+msgid "Announcement link label"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:86
+msgid "Announcement link URL (defaults to Our Story)"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:87
+msgid "Headline, line 1"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:88
+msgid "Headline, line 2"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:89
+msgid "Highlighted word"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:90
+msgid "Intro text"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:91
+msgid "Primary button label"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:92
+msgid "Primary button link"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:93
+msgid "Secondary button label"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:94
+msgid "Secondary button link (defaults to Contact page)"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:95
+msgid "Hero photo (desktop & tablet)"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:96
+msgid "Hero photo (phones, portrait)"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:97
+msgid "Featured product card"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:98
+#: inc/class-alhidayah-woocommerce.php:265
+msgid "Email"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:99
+#: inc/class-alhidayah-woocommerce.php:266
+msgid "Phone"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:100
+msgid "WhatsApp number (defaults to phone)"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:101
+#: template-parts/sections/contact.php:43
+msgid "Support line"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:102
+#: template-parts/sections/contact.php:44
+msgid "Opening hours"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:103
+msgid "Send new inquiries to (defaults to site admin email)"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:104
+msgid "Footer headline"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:105
+msgid "Copyright ({year} is replaced)"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:106
+msgid "X (Twitter) URL"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:107
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:108
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:109
+msgid "Telegram URL"
+msgstr ""
+
+#: inc/class-alhidayah-customizer.php:110
+msgid "TikTok URL"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:37
+msgid "You are not allowed to install plugins."
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:45
+msgid "The plugin could not be installed. Upload plugins/alhidayah-core.zip from the theme package under Plugins → Add New."
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:92
+msgid "Alhidayah:"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:95
+msgid "Install the bundled Alhidayah Core plugin to enable the Forms inbox, testimonials and Elementor widgets."
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:96
+msgid "Import the demo to get the complete store (products, pages, menus, checkout) in one click."
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:99
+msgid "Open Alhidayah Setup"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:107
+#: inc/class-alhidayah-demo-import.php:149
+msgid "Alhidayah Setup"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:127
+msgid "(required)"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:127
+msgid "(recommended, for visual editing)"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:130
+msgid "Activate"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:132
+msgid "Install & activate"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:134
+msgid "Install"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:151
+msgid "Demo imported. Your store is ready."
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:151
+msgid "View site →"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:153
+msgid "Please install and activate Alhidayah Core and WooCommerce first."
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:159
+msgid "Your premium fragrance store in one click"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:160
+msgid "The import creates everything shown in the demo, ready to edit."
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:165
+msgid "1. Plugins"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:168
+msgid "(required, bundled with the theme: Forms inbox, testimonials, Elementor widgets)"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:176
+msgid "2. Import the demo"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:178
+msgid "Five fragrances as WooCommerce products, with bottle cut-outs and lifestyle photos"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:179
+msgid "Three scent collections (product categories) with their photos"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:180
+msgid "Home page (built with Elementor when it is active), Contact page and 15 store pages"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:181
+msgid "Menu drawer and footer menus, testimonials"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:182
+msgid "Checkout: cash on delivery enabled, free shipping, Shopify-style checkout page"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:187
+msgid "Run import again"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:187
+msgid "Import demo content"
+msgstr ""
+
+#. translators: %s date
+#: inc/class-alhidayah-demo-import.php:190
+#, php-format
+msgid "Last imported %s. Running it again updates the demo products and pages instead of duplicating them."
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:195
+msgid "3. Make it yours"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:197
+msgid "Customize: brand, hero, contact details, footer, social links"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:198
+msgid "Products: prices, notes, photos (Alhidayah tab)"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:199
+msgid "Forms: contact form inquiries"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:200
+msgid "WooCommerce → Orders"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:201
+msgid "Payments: add Stripe, PayPal or bank transfer"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:202
+msgid "Menus"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:214
+msgid "You are not allowed to import the demo."
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:297
+msgid "A scent of your own"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:319
+msgid "Cash on delivery"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:320
+msgid "Pay with cash when your order arrives."
+msgstr ""
+
+#. Template Name of the theme
+#: inc/class-alhidayah-demo-import.php:504
+#: woocommerce/checkout/form-checkout.php:41
+#: woocommerce/checkout/form-checkout.php:126
+msgid "Contact"
+msgstr ""
+
+#: inc/class-alhidayah-demo-import.php:505
+msgid "Home"
+msgstr ""
+
+#: inc/class-alhidayah-setup.php:61
+msgid "Menu drawer"
+msgstr ""
+
+#: inc/class-alhidayah-setup.php:62
+msgid "Footer: Shop"
+msgstr ""
+
+#: inc/class-alhidayah-setup.php:63
+msgid "Footer: Customer Care"
+msgstr ""
+
+#: inc/class-alhidayah-setup.php:64
+msgid "Footer: Discover"
+msgstr ""
+
+#: inc/class-alhidayah-setup.php:65
+msgid "Footer: Legal"
+msgstr ""
+
+#: inc/class-alhidayah-setup.php:66
+msgid "Footer: Connect"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:22
+msgid "Mood (card subtitle)"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:22
+msgid "Regal, smoky, enveloping"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:23
+msgid "Key accords (under the name)"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:23
+msgid "Agarwood, Saffron, Taif Rose"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:24
+msgid "Top notes (comma separated)"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:24
+msgid "Saffron, Bergamot"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:25
+msgid "Middle notes (comma separated)"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:25
+msgid "Taif rose, Incense"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:26
+msgid "Base notes (comma separated)"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:26
+msgid "Oud, Amber, Musk"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:27
+msgid "Bottle size"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:27
+#: inc/helpers.php:354
+msgid "50 ml"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:28
+msgid "Story (product page)"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:29
+msgid "Backdrop tint behind the bottle"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:30
+msgid "Show “New” badge (and list in New arrivals)"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:31
+msgid "List in Best sellers"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:32
+msgid "Show “Limited” badge (and list in Limited edition)"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:126
+msgid "These details drive the product card, product page and filters. The featured image is the bottle cut-out; the first gallery image is the lifestyle photo."
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:211
+msgid "This fragrance is not available right now."
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:218
+msgid "Could not add to your bag."
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:267
+msgid "Country / Region"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:268
+msgid "First name"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:269
+msgid "Last name"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:270
+msgid "Address"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:271
+msgid "Apartment, suite, etc. (optional)"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:272
+msgid "City"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:273
+msgid "State / Province"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:274
+msgid "Postal code"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:287
+msgid "Notes about your order, e.g. a gift message or delivery instructions."
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:320
+#: woocommerce/checkout/review-order.php:80
+#: woocommerce/checkout/thankyou.php:79
+msgid "Free"
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:326
+msgid "Enter your delivery address to see shipping options."
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:329
+msgid "No shipping required."
+msgstr ""
+
+#: inc/class-alhidayah-woocommerce.php:391
+#: woocommerce/single-product.php:116
+msgid "I want this"
+msgstr ""
+
+#: inc/helpers.php:21
+msgid "A scent of guidance"
+msgstr ""
+
+#: inc/helpers.php:22
+msgid "A little luxury. A lasting impression."
+msgstr ""
+
+#: inc/helpers.php:23
+msgid "Discover Al-Hidayah"
+msgstr ""
+
+#: inc/helpers.php:29
+msgid "Mon – Sat, 10:00 – 20:00"
+msgstr ""
+
+#: inc/helpers.php:31
+msgid "Amazing scent that"
+msgstr ""
+
+#: inc/helpers.php:32
+msgid "reflects"
+msgstr ""
+
+#: inc/helpers.php:33
+msgid "character"
+msgstr ""
+
+#: inc/helpers.php:34
+msgid "Al-Hidayah delivers distinctive fragrances with an elegant,<br class=\"desktop-br\"> modern touch — made for those who stand out."
+msgstr ""
+
+#: inc/helpers.php:35
+msgid "Discover collection"
+msgstr ""
+
+#: inc/helpers.php:37
+#: template-parts/components/menu-drawer.php:25
+#: template-parts/sections/contact.php:15
+#: woocommerce/checkout/thankyou.php:86
+msgid "Contact us"
+msgstr ""
+
+#: inc/helpers.php:42
+msgid "Al-Hidayah is where the<br>fragrance is found."
+msgstr ""
+
+#: inc/helpers.php:43
+msgid "© {year} All rights reserved by Al-Hidayah"
+msgstr ""
+
+#: inc/helpers.php:420
+msgid "All scents"
+msgstr ""
+
+#: inc/helpers.php:443
+msgid "New arrivals"
+msgstr ""
+
+#: inc/helpers.php:447
+msgid "Best sellers"
+msgstr ""
+
+#: inc/helpers.php:451
+#: woocommerce/single-product.php:74
+msgid "Limited edition"
+msgstr ""
+
+#: inc/helpers.php:466
+msgid "Rich & regal"
+msgstr ""
+
+#: inc/helpers.php:467
+msgid "Soft & expressive"
+msgstr ""
+
+#: inc/helpers.php:468
+msgid "Bold & magnetic"
+msgstr ""
+
+#: inc/helpers.php:527
+msgid "New Arrivals"
+msgstr ""
+
+#: inc/helpers.php:528
+msgid "Best Sellers"
+msgstr ""
+
+#: inc/helpers.php:529
+msgid "Gift Sets"
+msgstr ""
+
+#: inc/helpers.php:530
+msgid "Limited Edition"
+msgstr ""
+
+#: inc/helpers.php:531
+msgid "All Collections"
+msgstr ""
+
+#: inc/helpers.php:535
+msgid "Shipping & Delivery"
+msgstr ""
+
+#: inc/helpers.php:536
+msgid "Returns & Exchanges"
+msgstr ""
+
+#: inc/helpers.php:537
+msgid "FAQ"
+msgstr ""
+
+#: inc/helpers.php:538
+msgid "Track Order"
+msgstr ""
+
+#: inc/helpers.php:539
+msgid "Contact Support"
+msgstr ""
+
+#: inc/helpers.php:543
+msgid "Our Story"
+msgstr ""
+
+#: inc/helpers.php:544
+msgid "Store Locator"
+msgstr ""
+
+#: inc/helpers.php:545
+msgid "Ingredients & Ethics"
+msgstr ""
+
+#: inc/helpers.php:546
+msgid "Scent Guide"
+msgstr ""
+
+#: inc/helpers.php:547
+msgid "Journal & Tips"
+msgstr ""
+
+#: inc/helpers.php:551
+msgid "Terms of Service"
+msgstr ""
+
+#: inc/helpers.php:552
+msgid "Privacy Policy"
+msgstr ""
+
+#: inc/helpers.php:553
+msgid "Refund Policy"
+msgstr ""
+
+#: inc/helpers.php:554
+msgid "Cookie Settings"
+msgstr ""
+
+#: inc/helpers.php:555
+msgid "Accessibility"
+msgstr ""
+
+#: inc/helpers.php:573
+msgid "X (Twitter)"
+msgstr ""
+
+#: inc/helpers.php:574
+msgid "Instagram"
+msgstr ""
+
+#: inc/helpers.php:575
+msgid "Facebook"
+msgstr ""
+
+#: inc/helpers.php:576
+msgid "Telegram"
+msgstr ""
+
+#: inc/helpers.php:577
+msgid "Tik Tok"
+msgstr ""
+
+#: inc/helpers.php:601
+msgid "Order enquiry"
+msgstr ""
+
+#: inc/helpers.php:602
+msgid "Product advice"
+msgstr ""
+
+#: inc/helpers.php:603
+msgid "Wholesale & gifting"
+msgstr ""
+
+#: inc/helpers.php:604
+msgid "Feedback"
+msgstr ""
+
+#: inc/helpers.php:605
+msgid "Other"
+msgstr ""
+
+#: index.php:15
+msgid "Journal"
+msgstr ""
+
+#. translators: %s search query
+#: index.php:20
+#, php-format
+msgid "Results for “%s”"
+msgstr ""
+
+#: index.php:26
+msgid "Journal & tips"
+msgstr ""
+
+#: index.php:54
+msgid "Nothing here yet."
+msgstr ""
+
+#: index.php:55
+msgid "Try a search, or explore our fragrances."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full width (for Elementor)"
+msgstr ""
+
+#: template-parts/components/bag-body.php:16
+#: template-parts/components/bag-drawer.php:16
+msgid "Your shopping bag"
+msgstr ""
+
+#: template-parts/components/bag-body.php:20
+msgid "Your next signature awaits."
+msgstr ""
+
+#: template-parts/components/bag-body.php:21
+msgid "Discover a fragrance that feels like you."
+msgstr ""
+
+#. translators: %s product
+#. translators: %s product name
+#: template-parts/components/bag-body.php:35
+#: template-parts/components/product-card.php:29
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#. translators: %s size
+#: template-parts/components/bag-body.php:38
+#: woocommerce/checkout/review-order.php:35
+#: woocommerce/checkout/thankyou.php:104
+#, php-format
+msgid "Eau de parfum · %s"
+msgstr ""
+
+#. translators: %s product
+#: template-parts/components/bag-body.php:41
+#, php-format
+msgid "Decrease %s quantity"
+msgstr ""
+
+#. translators: %s product
+#: template-parts/components/bag-body.php:43
+#, php-format
+msgid "Increase %s quantity"
+msgstr ""
+
+#. translators: %s product
+#. translators: %s coupon
+#: template-parts/components/bag-body.php:46
+#: woocommerce/checkout/review-order.php:66
+#, php-format
+msgid "Remove %s"
+msgstr ""
+
+#: template-parts/components/bag-body.php:51
+msgid "Subtotal"
+msgstr ""
+
+#: template-parts/components/bag-body.php:52
+msgid "Shipping and taxes calculated at checkout."
+msgstr ""
+
+#: template-parts/components/bag-body.php:53
+#: woocommerce/checkout/form-checkout.php:28
+msgid "Checkout"
+msgstr ""
+
+#: template-parts/components/bag-drawer.php:17
+#: template-parts/components/menu-drawer.php:33
+msgid "Close"
+msgstr ""
+
+#. translators: %1$s product, %2$s size
+#: template-parts/components/bottle.php:26
+#, php-format
+msgid "%1$s eau de parfum, %2$s"
+msgstr ""
+
+#: template-parts/components/menu-drawer.php:21
+#: woocommerce/archive-product.php:35
+msgid "The collection"
+msgstr ""
+
+#: template-parts/components/menu-drawer.php:22
+msgid "Shop fragrances"
+msgstr ""
+
+#: template-parts/components/menu-drawer.php:23
+msgid "Our ingredients"
+msgstr ""
+
+#: template-parts/components/menu-drawer.php:24
+msgid "Customer reviews"
+msgstr ""
+
+#: template-parts/components/menu-drawer.php:32
+msgid "Navigation"
+msgstr ""
+
+#: template-parts/components/menu-drawer.php:35
+msgid "Main"
+msgstr ""
+
+#: template-parts/components/product-card.php:35
+#: template-parts/sections/hero.php:72
+#: woocommerce/single-product.php:71
+msgid "New"
+msgstr ""
+
+#: template-parts/components/product-card.php:38
+msgid "Limited"
+msgstr ""
+
+#. translators: %d percent
+#: template-parts/components/product-card.php:41
+#: woocommerce/single-product.php:77
+#, php-format
+msgid "%d%% OFF"
+msgstr ""
+
+#: template-parts/components/product-card.php:43
+msgid "Discover scent"
+msgstr ""
+
+#. translators: %s product name
+#: template-parts/components/product-card.php:50
+#, php-format
+msgid "Add %s to bag"
+msgstr ""
+
+#. translators: %s rating
+#: template-parts/components/testimonial.php:21
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: template-parts/footer/site-footer.php:14
+msgid "Shop"
+msgstr ""
+
+#: template-parts/footer/site-footer.php:15
+msgid "Customer Care"
+msgstr ""
+
+#: template-parts/footer/site-footer.php:16
+msgid "Discover"
+msgstr ""
+
+#: template-parts/footer/site-footer.php:17
+msgid "Legal"
+msgstr ""
+
+#: template-parts/footer/site-footer.php:18
+msgid "Connect"
+msgstr ""
+
+#: template-parts/footer/site-footer.php:35
+msgid "Footer"
+msgstr ""
+
+#: template-parts/header/bar.php:16
+msgid "Open navigation"
+msgstr ""
+
+#. translators: %s: brand name
+#. translators: %s brand
+#: template-parts/header/bar.php:17
+#: template-parts/header/checkout.php:12
+#, php-format
+msgid "%s home"
+msgstr ""
+
+#. translators: %d: number of items
+#: template-parts/header/bar.php:18
+#, php-format
+msgid "Open shopping bag, %d items"
+msgstr ""
+
+#: template-parts/header/checkout.php:14
+msgid "Back to your bag"
+msgstr ""
+
+#: template-parts/sections/closing.php:15
+msgid "A SCENT OF YOUR OWN"
+msgstr ""
+
+#: template-parts/sections/closing.php:16
+msgid "Leave a little<br>of <span>yourself</span> everywhere."
+msgstr ""
+
+#: template-parts/sections/closing.php:17
+msgid "Find your signature"
+msgstr ""
+
+#: template-parts/sections/collections.php:15
+msgid "Our collections"
+msgstr ""
+
+#: template-parts/sections/collections.php:16
+msgid "Discover the fragrance with<br>an unlimited collection"
+msgstr ""
+
+#: template-parts/sections/collections.php:38
+msgid "THE COLLECTION"
+msgstr ""
+
+#: template-parts/sections/contact.php:16
+msgid "We’d love to<br>hear from you"
+msgstr ""
+
+#: template-parts/sections/contact.php:17
+msgid "Questions about an order, help choosing a signature scent, or gifting for someone special. Our team replies within one business day."
+msgstr ""
+
+#: template-parts/sections/contact.php:18
+msgid "Send us a message"
+msgstr ""
+
+#: template-parts/sections/contact.php:20
+msgid "Frequently asked<br>questions"
+msgstr ""
+
+#: template-parts/sections/contact.php:22
+msgid "How long does the fragrance last?"
+msgstr ""
+
+#: template-parts/sections/contact.php:22
+msgid "Our eau de parfum concentration is made to last 6–10 hours on skin, and longer on fabric."
+msgstr ""
+
+#: template-parts/sections/contact.php:23
+msgid "What size are the bottles?"
+msgstr ""
+
+#: template-parts/sections/contact.php:23
+msgid "Every fragrance comes in a 50 ml / 1.7 oz glass bottle."
+msgstr ""
+
+#: template-parts/sections/contact.php:24
+msgid "How do I place an order?"
+msgstr ""
+
+#: template-parts/sections/contact.php:24
+msgid "Add your favourites to the bag and check out securely. You will receive an order confirmation by email, and our team confirms delivery with you."
+msgstr ""
+
+#: template-parts/sections/contact.php:25
+msgid "Can I gift a fragrance?"
+msgstr ""
+
+#: template-parts/sections/contact.php:25
+msgid "Yes. Leave a note with your order and we will add a handwritten gift card."
+msgstr ""
+
+#: template-parts/sections/contact.php:40
+msgid "Email us"
+msgstr ""
+
+#: template-parts/sections/contact.php:41
+msgid "Call us"
+msgstr ""
+
+#: template-parts/sections/contact.php:42
+msgid "WhatsApp"
+msgstr ""
+
+#: template-parts/sections/contact.php:42
+msgid "Chat with our team"
+msgstr ""
+
+#: template-parts/sections/contact.php:60
+msgid "Full name *"
+msgstr ""
+
+#: template-parts/sections/contact.php:60
+msgid "Your name"
+msgstr ""
+
+#: template-parts/sections/contact.php:61
+msgid "Email *"
+msgstr ""
+
+#: template-parts/sections/contact.php:64
+msgid "Phone (optional)"
+msgstr ""
+
+#: template-parts/sections/contact.php:65
+msgid "Topic"
+msgstr ""
+
+#: template-parts/sections/contact.php:71
+msgid "Order number (optional)"
+msgstr ""
+
+#: template-parts/sections/contact.php:71
+msgid "e.g. AH-1024"
+msgstr ""
+
+#: template-parts/sections/contact.php:72
+msgid "Message *"
+msgstr ""
+
+#: template-parts/sections/contact.php:72
+msgid "How can we help?"
+msgstr ""
+
+#: template-parts/sections/contact.php:73
+msgid "Leave this empty"
+msgstr ""
+
+#. translators: %s email
+#: template-parts/sections/contact.php:75
+#, php-format
+msgid "We couldn’t send your message just now. Please try again, or email us at %s."
+msgstr ""
+
+#: template-parts/sections/contact.php:78
+msgid "Send on WhatsApp"
+msgstr ""
+
+#: template-parts/sections/contact.php:80
+msgid "We only use your details to reply to your message."
+msgstr ""
+
+#: template-parts/sections/contact.php:83
+msgid "Message sent"
+msgstr ""
+
+#: template-parts/sections/contact.php:84
+msgid "Thank you for reaching out. Our team will reply to your email within one business day."
+msgstr ""
+
+#: template-parts/sections/contact.php:85
+msgid "Almost there"
+msgstr ""
+
+#: template-parts/sections/contact.php:86
+msgid "Your message is ready in WhatsApp and saved with our team. Press send there and we will reply within one business day."
+msgstr ""
+
+#: template-parts/sections/contact.php:90
+msgid "Write another message"
+msgstr ""
+
+#: template-parts/sections/contact.php:98
+msgid "Quick answers"
+msgstr ""
+
+#: template-parts/sections/hero.php:25
+msgid "Al-Hidayah Rozta-ul-Oud eau de parfum on warm travertine with amber silk"
+msgstr ""
+
+#: template-parts/sections/hero.php:72
+msgid "Signature"
+msgstr ""
+
+#: template-parts/sections/hero.php:79
+msgid "Explore collections"
+msgstr ""
+
+#: template-parts/sections/ingredients.php:15
+msgid "Soulful creations. Beautiful ingredients."
+msgstr ""
+
+#: template-parts/sections/ingredients.php:16
+msgid "Only high-quality<br>perfume ingredients"
+msgstr ""
+
+#: template-parts/sections/ingredients.php:17
+msgid "We create perfumes that can be enjoyed to the fullest,<br class=\"desktop-br\"> using ingredients whose quality is beyond doubt."
+msgstr ""
+
+#: template-parts/sections/ingredients.php:18
+msgid "View our story"
+msgstr ""
+
+#: template-parts/sections/shop.php:15
+#: woocommerce/archive-product.php:35
+#: woocommerce/single-product.php:43
+msgid "Our products"
+msgstr ""
+
+#: template-parts/sections/shop.php:16
+#: woocommerce/archive-product.php:36
+msgid "We know you love lots of<br>scents, discover them now"
+msgstr ""
+
+#: template-parts/sections/shop.php:39
+msgid "Filter fragrances"
+msgstr ""
+
+#: template-parts/sections/shop.php:44
+msgid "Find your scent"
+msgstr ""
+
+#: template-parts/sections/shop.php:44
+msgid "Search fragrances"
+msgstr ""
+
+#: template-parts/sections/shop.php:55
+msgid "Scent guide"
+msgstr ""
+
+#: template-parts/sections/shop.php:56
+msgid "Not sure where<br>to begin?"
+msgstr ""
+
+#. translators: %s: brand name
+#: template-parts/sections/shop.php:57
+#, php-format
+msgid "Find the %s fragrance that matches your mood in under a minute."
+msgstr ""
+
+#: template-parts/sections/shop.php:63
+msgid "No scents found."
+msgstr ""
+
+#: template-parts/sections/shop.php:64
+msgid "Try a different name or note, or explore all our fragrances."
+msgstr ""
+
+#: template-parts/sections/shop.php:65
+msgid "View all scents"
+msgstr ""
+
+#: template-parts/sections/testimonials.php:15
+msgid "Testimonials"
+msgstr ""
+
+#: template-parts/sections/testimonials.php:16
+msgid "What our customers say<br>about our products"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:19
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:31
+msgid "Show order summary"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:31
+msgid "Hide order summary"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:43
+msgid "Sign in"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:56
+msgid "Delivery"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:72
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:93
+#: woocommerce/checkout/thankyou.php:79
+msgid "Shipping method"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:101
+msgid "Add a note to your order"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:114
+msgid "Payment"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:115
+msgid "All transactions are secure and encrypted."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:122
+msgid "Store policies"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:123
+msgid "Refund policy"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:124
+msgid "Privacy policy"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:125
+msgid "Terms of service"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:130
+#: woocommerce/checkout/thankyou.php:91
+msgid "Order summary"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:133
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:46
+msgid "Discount code"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:47
+msgid "Discount code or gift card"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:48
+msgid "Apply"
+msgstr ""
+
+#. translators: %d item count
+#: woocommerce/checkout/review-order.php:58
+#, php-format
+msgid "Subtotal · %d item"
+msgid_plural "Subtotal · %d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/checkout/review-order.php:66
+msgid "Discount"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:75
+msgid "Enter shipping address"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:84
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:102
+msgid "Total"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:23
+msgid "Payment was not completed"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:24
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:26
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:28
+msgid "My account"
+msgstr ""
+
+#. translators: %s order number
+#: woocommerce/checkout/thankyou.php:46
+#, php-format
+msgid "Order #%s"
+msgstr ""
+
+#. translators: %s first name
+#: woocommerce/checkout/thankyou.php:52
+#, php-format
+msgid "Thank you, %s!"
+msgstr ""
+
+#. translators: %s first name
+#: woocommerce/checkout/thankyou.php:52
+msgid "Thank you!"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:59
+msgid "Your order is confirmed"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:60
+msgid "You’ll receive a confirmation email with your order number shortly. Our team will be in touch before delivery."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:74
+msgid "Order details"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:76
+msgid "Contact information"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:77
+msgid "Payment method"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:78
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:86
+msgid "Need help?"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:87
+msgid "Continue shopping"
+msgstr ""
+
+#: woocommerce/single-product.php:44
+msgid "Discover our best collection,<br>in other words, many fans"
+msgstr ""
+
+#. translators: %s: number of fragrances in words or digits
+#: woocommerce/single-product.php:48
+#, php-format
+msgid "%s signature eau de parfum, composed around a single feeling."
+msgid_plural "%s signature eau de parfums, each composed around a single feeling."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of fragrances in words or digits
+#: woocommerce/single-product.php:48
+msgid "Five"
+msgstr ""
+
+#: woocommerce/single-product.php:50
+msgid "Explore the scent that was made to become yours."
+msgstr ""
+
+#. translators: %s product
+#: woocommerce/single-product.php:56
+#, php-format
+msgid "Previous: %s"
+msgstr ""
+
+#. translators: %s product
+#: woocommerce/single-product.php:56
+msgid "Prev"
+msgstr ""
+
+#. translators: %s product
+#: woocommerce/single-product.php:57
+#, php-format
+msgid "Next: %s"
+msgstr ""
+
+#. translators: %s product
+#: woocommerce/single-product.php:57
+msgid "Next"
+msgstr ""
+
+#. translators: %s product
+#: woocommerce/single-product.php:65
+#, php-format
+msgid "%s eau de parfum lifestyle photo"
+msgstr ""
+
+#: woocommerce/single-product.php:80
+msgid "Product images"
+msgstr ""
+
+#: woocommerce/single-product.php:81
+msgid "Lifestyle photo"
+msgstr ""
+
+#: woocommerce/single-product.php:82
+msgid "Bottle photo"
+msgstr ""
+
+#. translators: %s size
+#: woocommerce/single-product.php:88
+#, php-format
+msgid "Eau de parfum %s"
+msgstr ""
+
+#: woocommerce/single-product.php:97
+msgid "Base note"
+msgstr ""
+
+#: woocommerce/single-product.php:98
+msgid "Middle note"
+msgstr ""
+
+#: woocommerce/single-product.php:99
+msgid "Top note"
+msgstr ""
+
+#: woocommerce/single-product.php:110
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/single-product.php:111
+msgid "Decrease quantity"
+msgstr ""
+
+#: woocommerce/single-product.php:113
+msgid "Increase quantity"
+msgstr ""
+
+#: woocommerce/single-product.php:118
+msgid "Sold out"
+msgstr ""
+
+#: woocommerce/single-product.php:127
+msgid "All fragrances"
+msgstr ""
+
+#: woocommerce/single-product.php:137
+msgid "The story"
+msgstr ""
+
+#: woocommerce/single-product.php:139
+msgid "Where to apply"
+msgstr ""
+
+#: woocommerce/single-product.php:139
+msgid "Pulse points: wrists, neck and behind the ears. Let it settle, don’t rub."
+msgstr ""
+
+#: woocommerce/single-product.php:140
+msgid "When to wear"
+msgstr ""
+
+#: woocommerce/single-product.php:144
+msgid "Daytime, celebrations and warm evenings."
+msgstr ""
+
+#: woocommerce/single-product.php:146
+msgid "Evenings out and cooler days."
+msgstr ""
+
+#: woocommerce/single-product.php:148
+msgid "Any time you want to leave an impression."
+msgstr ""
+
+#: woocommerce/single-product.php:152
+msgid "Longevity"
+msgstr ""
+
+#: woocommerce/single-product.php:152
+msgid "6–10 hours on skin, longer on fabric."
+msgstr ""
+
+#: woocommerce/single-product.php:162
+msgid "Keep exploring"
+msgstr ""
+
+#: woocommerce/single-product.php:163
+msgid "Find the scent that<br>feels like <span>you</span>."
+msgstr ""
+
+#: woocommerce/single-product.php:164
+msgid "View all fragrances"
+msgstr ""

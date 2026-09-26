@@ -1,0 +1,696 @@
+# Copyright (C) 2026 Alhidayah
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Alhidayah Core 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/alhidayah-core\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-26T12:19:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: alhidayah-core\n"
+
+#. Plugin Name of the plugin
+#: alhidayah-core.php
+msgid "Alhidayah Core"
+msgstr ""
+
+#. Description of the plugin
+#: alhidayah-core.php
+msgid "Companion plugin for the Alhidayah theme: the Forms inbox for contact inquiries, customer testimonials, Elementor widgets, SEO meta and the [alhidayah_contact_links] shortcode."
+msgstr ""
+
+#. Author of the plugin
+#: alhidayah-core.php
+msgid "Alhidayah"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-base.php:91
+msgid "Content"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-base.php:114
+msgid "Use &lt;br&gt; for a line break and &lt;span&gt;…&lt;/span&gt; to highlight a word."
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-base.php:188
+msgid "Style"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-base.php:204
+msgid "Colour"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-closing.php:22
+msgid "Al-Hidayah Call to Action"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-closing.php:38
+#: elementor/widgets/class-alhidayah-widget-collections.php:41
+#: elementor/widgets/class-alhidayah-widget-products.php:40
+msgid "Eyebrow"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-closing.php:38
+msgid "A SCENT OF YOUR OWN"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-closing.php:39
+#: elementor/widgets/class-alhidayah-widget-closing.php:49
+#: elementor/widgets/class-alhidayah-widget-collections.php:42
+#: elementor/widgets/class-alhidayah-widget-collections.php:95
+#: elementor/widgets/class-alhidayah-widget-contact.php:42
+#: elementor/widgets/class-alhidayah-widget-contact.php:97
+#: elementor/widgets/class-alhidayah-widget-ingredients.php:39
+#: elementor/widgets/class-alhidayah-widget-ingredients.php:50
+#: elementor/widgets/class-alhidayah-widget-products.php:41
+#: elementor/widgets/class-alhidayah-widget-products.php:84
+#: elementor/widgets/class-alhidayah-widget-testimonials.php:41
+#: elementor/widgets/class-alhidayah-widget-testimonials.php:60
+msgid "Heading"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-closing.php:39
+msgid "Leave a little<br>of <span>yourself</span> everywhere."
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-closing.php:40
+#: elementor/widgets/class-alhidayah-widget-ingredients.php:41
+msgid "Button"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-closing.php:40
+msgid "Find your signature"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-closing.php:41
+msgid "Button link"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-closing.php:50
+#: elementor/widgets/class-alhidayah-widget-hero.php:43
+#: elementor/widgets/class-alhidayah-widget-hero.php:86
+msgid "Highlighted word"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-collections.php:25
+msgid "Al-Hidayah Collections"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-collections.php:41
+msgid "Our collections"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-collections.php:42
+msgid "Discover the fragrance with<br>an unlimited collection"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-collections.php:48
+msgid "Title"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-collections.php:50
+msgid "Oud & woody"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-collections.php:56
+msgid "Tag"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-collections.php:58
+msgid "Rich & regal"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-collections.php:64
+msgid "Photo (portrait 4:5)"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-collections.php:71
+msgid "Product category slug to show"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-collections.php:74
+msgid "Also accepts: all, new, best, limited."
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-collections.php:80
+msgid "Cards"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-collections.php:85
+msgid "Leave empty to show your product categories automatically (with their category images)."
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-collections.php:96
+msgid "Card title"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:25
+msgid "Al-Hidayah Contact Form"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:41
+#: elementor/widgets/class-alhidayah-widget-ingredients.php:38
+#: elementor/widgets/class-alhidayah-widget-testimonials.php:40
+msgid "Pill"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:41
+msgid "Contact us"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:42
+msgid "We’d love to<br>hear from you"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:43
+msgid "Intro"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:43
+msgid "Questions about an order, help choosing a signature scent, or gifting for someone special. Our team replies within one business day."
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:44
+msgid "Form heading"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:44
+msgid "Send us a message"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:49
+msgid "Messages are saved under Forms in the dashboard and emailed to you. Contact details come from Appearance → Customize → Al-Hidayah → Contact details."
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:58
+msgid "FAQ"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:62
+msgid "Show FAQ"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:63
+msgid "FAQ heading"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:63
+msgid "Frequently asked<br>questions"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:68
+msgid "Question"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:75
+msgid "Answer"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:82
+msgid "Questions"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-contact.php:87
+msgid "Leave empty to use the standard questions."
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:24
+msgid "Al-Hidayah Hero"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:41
+msgid "Headline, line 1"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:42
+msgid "Headline, line 2"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:44
+#: elementor/widgets/class-alhidayah-widget-hero.php:87
+msgid "Intro text"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:45
+msgid "Primary button"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:46
+msgid "Primary button link"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:47
+msgid "Secondary button"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:48
+msgid "Secondary button link (empty = Contact page)"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:54
+msgid "Photo & product card"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:58
+msgid "Photo (desktop & tablet)"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:58
+msgid "Landscape, about 2000×1440. Keep the left side calm for the headline."
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:59
+msgid "Photo (phones)"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:59
+msgid "Portrait, about 1100×1360, product centred."
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:60
+msgid "Show featured product card"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:61
+msgid "— Newest product —"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:70
+msgid "Featured product"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:77
+msgid "Show the header inside the hero"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-hero.php:85
+msgid "Headline"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-ingredients.php:22
+msgid "Al-Hidayah Ingredients"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-ingredients.php:38
+msgid "Soulful creations. Beautiful ingredients."
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-ingredients.php:39
+msgid "Only high-quality<br>perfume ingredients"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-ingredients.php:40
+#: elementor/widgets/class-alhidayah-widget-ingredients.php:51
+#: includes/class-alhidayah-elementor.php:65
+msgid "Text"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-ingredients.php:40
+msgid "We create perfumes that can be enjoyed to the fullest,<br class=\"desktop-br\"> using ingredients whose quality is beyond doubt."
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-ingredients.php:41
+msgid "View our story"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-ingredients.php:42
+msgid "Button link (empty = Our Story page)"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-products.php:24
+msgid "Al-Hidayah Products"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-products.php:40
+msgid "Our products"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-products.php:41
+msgid "We know you love lots of<br>scents, discover them now"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-products.php:42
+msgid "All products"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-products.php:59
+msgid "Show products from"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-products.php:68
+msgid "Maximum products"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-products.php:75
+msgid "Show filters and search"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-products.php:76
+msgid "Show “Scent guide” card"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-products.php:85
+msgid "Product name"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-products.php:86
+msgid "Price"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-testimonials.php:24
+msgid "Al-Hidayah Testimonials"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-testimonials.php:40
+#: includes/class-alhidayah-testimonials.php:39
+msgid "Testimonials"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-testimonials.php:41
+msgid "What our customers say<br>about our products"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-testimonials.php:45
+msgid "Number of reviews"
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-testimonials.php:50
+msgid "Reviews are managed under Testimonials in the dashboard."
+msgstr ""
+
+#: elementor/widgets/class-alhidayah-widget-testimonials.php:61
+#: includes/class-alhidayah-testimonials.php:115
+msgid "Quote"
+msgstr ""
+
+#: includes/class-alhidayah-elementor.php:63
+msgid "Ink"
+msgstr ""
+
+#: includes/class-alhidayah-elementor.php:64
+msgid "Bronze"
+msgstr ""
+
+#: includes/class-alhidayah-elementor.php:66
+msgid "Amber"
+msgstr ""
+
+#: includes/class-alhidayah-elementor.php:77
+msgid "Headings"
+msgstr ""
+
+#: includes/class-alhidayah-elementor.php:78
+msgid "Subtitles"
+msgstr ""
+
+#: includes/class-alhidayah-elementor.php:79
+msgid "Body"
+msgstr ""
+
+#: includes/class-alhidayah-elementor.php:80
+msgid "Buttons"
+msgstr ""
+
+#: includes/class-alhidayah-elementor.php:108
+msgid "Al-Hidayah"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:68
+msgid "Order enquiry"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:69
+msgid "Product advice"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:70
+msgid "Wholesale & gifting"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:71
+msgid "Feedback"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:72
+msgid "Other"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:85
+msgid "Form inquiries"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:86
+#: includes/class-alhidayah-forms.php:89
+msgid "Inquiry"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:87
+msgid "Forms"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:88
+msgid "All inquiries"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:90
+msgid "View inquiry"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:91
+msgid "Search inquiries"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:92
+msgid "No inquiries yet. Messages sent from the Contact page appear here."
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:93
+msgid "No inquiries in Trash."
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:118
+msgid "Your session expired. Please refresh the page and try again."
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:132
+msgid "Too many messages in a short time. Please try again in a few minutes."
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:147
+msgid "Please enter your name."
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:150
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:153
+msgid "Please enter a valid phone number."
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:156
+msgid "Please write a little more (at least 10 characters)."
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:177
+msgid "We could not save your message. Please try again."
+msgstr ""
+
+#. translators: 1: topic, 2: name
+#: includes/class-alhidayah-forms.php:202
+#, php-format
+msgid "New inquiry: %1$s from %2$s"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:204
+#: includes/class-alhidayah-forms.php:251
+#: includes/class-alhidayah-forms.php:596
+msgid "Name"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:205
+#: includes/class-alhidayah-forms.php:252
+#: includes/class-alhidayah-forms.php:597
+msgid "Email"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:206
+#: includes/class-alhidayah-forms.php:253
+#: includes/class-alhidayah-forms.php:598
+msgid "Phone"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:207
+#: includes/class-alhidayah-forms.php:254
+#: includes/class-alhidayah-forms.php:599
+msgid "Topic"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:210
+msgid "Order number"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:215
+msgid "View in dashboard"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:255
+#: includes/class-alhidayah-forms.php:581
+msgid "Message"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:256
+#: includes/class-alhidayah-forms.php:601
+msgid "Sent via"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:257
+#: includes/class-alhidayah-forms.php:602
+msgid "Received"
+msgstr ""
+
+#. translators: %s order
+#: includes/class-alhidayah-forms.php:279
+#, php-format
+msgid "Order %s"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:285
+#: includes/class-alhidayah-forms.php:601
+msgid "WhatsApp"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:285
+#: includes/class-alhidayah-forms.php:601
+msgid "Contact form"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:329
+msgid "View"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:333
+#: includes/class-alhidayah-forms.php:510
+#: includes/class-alhidayah-forms.php:625
+msgid "Mark as unread"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:333
+#: includes/class-alhidayah-forms.php:509
+msgid "Mark as read"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:335
+msgid "Reply"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:364
+msgid "Unread"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:378
+msgid "All topics"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:431
+msgid "Export CSV"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:440
+msgid "You are not allowed to export inquiries."
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:492
+msgid "You are not allowed to do that."
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:582
+msgid "Actions"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:600
+msgid "Order"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:621
+msgid "Reply by email"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:623
+msgid "Reply on WhatsApp"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:626
+msgid "Move to Trash"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:627
+msgid "← All inquiries"
+msgstr ""
+
+#: includes/class-alhidayah-forms.php:641
+#: includes/class-alhidayah-forms.php:655
+#: includes/class-alhidayah-forms.php:697
+msgid "Contact form inquiries"
+msgstr ""
+
+#: includes/class-alhidayah-shortcodes.php:35
+msgid "Chat on WhatsApp"
+msgstr ""
+
+#: includes/class-alhidayah-shortcodes.php:36
+msgid "Open contact page"
+msgstr ""
+
+#: includes/class-alhidayah-testimonials.php:40
+msgid "Testimonial"
+msgstr ""
+
+#: includes/class-alhidayah-testimonials.php:41
+msgid "Add testimonial"
+msgstr ""
+
+#: includes/class-alhidayah-testimonials.php:42
+msgid "Edit testimonial"
+msgstr ""
+
+#: includes/class-alhidayah-testimonials.php:43
+msgid "All testimonials"
+msgstr ""
+
+#: includes/class-alhidayah-testimonials.php:63
+msgid "Customer name"
+msgstr ""
+
+#: includes/class-alhidayah-testimonials.php:70
+msgid "Review details"
+msgstr ""
+
+#: includes/class-alhidayah-testimonials.php:84
+msgid "Role or city"
+msgstr ""
+
+#: includes/class-alhidayah-testimonials.php:85
+msgid "Rating (1–5, halves allowed)"
+msgstr ""
+
+#: includes/class-alhidayah-testimonials.php:86
+msgid "Avatar colour"
+msgstr ""
+
+#: includes/class-alhidayah-testimonials.php:87
+msgid "The quote is the main content. Use menu order to sort."
+msgstr ""
+
+#: includes/class-alhidayah-testimonials.php:114
+msgid "Customer"
+msgstr ""
+
+#: includes/class-alhidayah-testimonials.php:116
+msgid "Rating"
+msgstr ""

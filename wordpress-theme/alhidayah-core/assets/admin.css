@@ -1,0 +1,15 @@
+/* Alhidayah Core admin: Forms inbox. */
+.post-type-alhidayah_inquiry .ah-unread .row-title{font-weight:700}
+.post-type-alhidayah_inquiry .ah-unread td.column-title strong::before{content:'';display:inline-block;width:8px;height:8px;border-radius:50%;background:#a66926;margin-right:8px;vertical-align:middle}
+.post-type-alhidayah_inquiry .column-email,.post-type-alhidayah_inquiry .column-phone{width:16%}
+.post-type-alhidayah_inquiry .column-topic,.post-type-alhidayah_inquiry .column-channel{width:11%}
+.ah-topic{display:inline-block;background:#f3ece2;color:#6b4a1e;border-radius:12px;padding:2px 9px;font-size:12px}
+.post-type-alhidayah_inquiry #titlediv #title{pointer-events:none;background:#f6f7f7}
+.post-type-alhidayah_inquiry #edit-slug-box,.post-type-alhidayah_inquiry .page-title-action{display:none}
+.ah-inquiry-table{border-collapse:collapse;width:100%;max-width:640px}
+.ah-inquiry-table th{text-align:left;width:130px;padding:9px 12px 9px 0;color:#646970;font-weight:500;vertical-align:top}
+.ah-inquiry-table td{padding:9px 0;border-bottom:1px solid #f0f0f1}
+.ah-inquiry-message{margin-top:18px;padding:18px 20px;background:#f6f7f7;border-left:3px solid #a66926;font-size:14px;line-height:1.7;white-space:normal;max-width:760px}
+.ah-inquiry-actions{display:flex;flex-direction:column;gap:10px}
+.ah-inquiry-actions .button{text-align:center}
+.ah-inquiry-actions .submitdelete{color:#b32d2e}
