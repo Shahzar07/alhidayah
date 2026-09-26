@@ -71,7 +71,6 @@ export const filters: Filter[] = [
 
 export const cutout = (p: Product) => `/images/products/${p.id}.webp`;
 export const scene = (p: Product) => `/images/scenes/${p.id}.jpg`;
-export const studio = (p: Product) => `/images/products/${p.id}-studio.webp`;
 export const productUrl = (p: Product) => `/products/${p.id}/`;
 export const findProduct = (id: string) => products.find(p => p.id === id);
 export const money = (amount: number) => new Intl.NumberFormat(brand.locale, { style: 'currency', currency: brand.currency, maximumFractionDigits: 2 }).format(amount);

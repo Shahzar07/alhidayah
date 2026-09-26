@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { ArrowLeft, ArrowRight, ArrowUpRight, Minus, Plus, ShoppingBag } from 'lucide-react';
-import { money, products, productUrl, type Product } from '@/lib/products';
+import { money, products, productUrl, scene, type Product } from '@/lib/products';
 import { Bottle } from './bottle';
 import Footer from './footer';
 import Header from './header';
@@ -14,7 +14,7 @@ import Testimonials from './testimonials';
 export default function ProductPage({ product: p }: { product: Product }) {
   const { add } = useStore();
   const router = useRouter();
-  const [quantity, setQuantity] = useState(1);
+  const [quantity, setQuantity] = useState(1), [view, setView] = useState<'scene' | 'bottle'>('scene');
   const index = products.findIndex(x => x.id === p.id);
   const prev = products[(index - 1 + products.length) % products.length], next = products[(index + 1) % products.length];
 
@@ -43,7 +43,8 @@ export default function ProductPage({ product: p }: { product: Product }) {
         </div>
 
         <article className="product-sheet reveal-in" key={p.id}>
-          <div className="product-sheet-media"><Bottle product={p} size="stage" priority />{p.isNew && <span className="pill product-badge">• New</span>}{p.limited && <span className="pill product-badge">• Limited edition</span>}{p.previous && <span className="discount">{Math.round((1 - p.price / p.previous) * 100)}% OFF</span>}</div>
+          <div className="product-sheet-media">{view === 'scene' ? <img className="sheet-scene" src={scene(p)} alt={`${p.name} eau de parfum on sand with palm shadows`} fetchPriority="high" /> : <Bottle product={p} size="stage" priority />}
+            <div className="media-switch" role="group" aria-label="Product images"><button aria-pressed={view === 'scene'} onClick={() => setView('scene')}><img src={scene(p)} alt="" /><span className="sr-only">Lifestyle photo</span></button><button aria-pressed={view === 'bottle'} onClick={() => setView('bottle')}><Bottle product={p} size="thumb" /><span className="sr-only">Bottle photo</span></button></div>{p.isNew && <span className="pill product-badge">• New</span>}{p.limited && <span className="pill product-badge">• Limited edition</span>}{p.previous && <span className="discount">{Math.round((1 - p.price / p.previous) * 100)}% OFF</span>}</div>
           <div className="product-sheet-copy">
             <div><span className="sheet-family">{p.family} · Eau de parfum 50 ml</span><h2 id="product-name">{p.name}</h2><p className="sheet-accords">{p.accords}</p></div>
             <div className="sheet-bottom">

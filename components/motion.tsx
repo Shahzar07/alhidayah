@@ -19,6 +19,10 @@ useEffect(()=>{
  if(has('.ingredients')) gsap.utils.toArray<HTMLElement>('.botanical').forEach((el,i)=>gsap.to(el,{y:i%2?35:-35,rotation:i%2?4:-4,ease:'none',scrollTrigger:{trigger:'.ingredients',start:'top bottom',end:'bottom top',scrub:1}}));
  if(has('.footer-giant')) gsap.from('.footer-giant text',{y:60,ease:'none',scrollTrigger:{trigger:'.footer-giant',start:'top bottom',end:'bottom bottom',scrub:true}});
  });
- return ()=>{ctx.revert(); gsap.ticker.remove(tick);lenis.destroy();};
+ // late-loading images move sections; re-measure triggers so reveals fire at the right place
+ let t=0; const refresh=()=>{clearTimeout(t);t=window.setTimeout(()=>ScrollTrigger.refresh(),150);};
+ const imgs=[...document.images].filter(i=>!i.complete); imgs.forEach(i=>i.addEventListener('load',refresh,{once:true}));
+ window.addEventListener('load',refresh);
+ return ()=>{clearTimeout(t);window.removeEventListener('load',refresh);imgs.forEach(i=>i.removeEventListener('load',refresh));ctx.revert(); gsap.ticker.remove(tick);lenis.destroy();};
 },[]); return null;
 }

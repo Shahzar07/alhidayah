@@ -58,7 +58,7 @@ export default function StoreProvider({ children }: { children: React.ReactNode 
 
     <Modal open={menu} onOpenChange={setMenu} title="Navigation" kind="drawer menu-drawer">
       <Link className="menu-logo" href="/" onClick={() => setMenu(false)}><Logo /></Link>
-      <nav>{[['The collection', '/#collections'], ['Shop fragrances', '/#shop'], ['Our ingredients', '/#story'], ['Customer reviews', '/#reviews']].map(([label, url], i) => <Link href={url} onClick={() => setMenu(false)} key={url}><small>0{i + 1}</small>{label}<ArrowUpRight /></Link>)}</nav>
+      <nav>{[['The collection', '/#collections'], ['Shop fragrances', '/#shop'], ['Our ingredients', '/#story'], ['Customer reviews', '/#reviews'], ['Contact us', '/contact/']].map(([label, url], i) => <Link href={url} onClick={() => setMenu(false)} key={url}><small>0{i + 1}</small>{label}<ArrowUpRight /></Link>)}</nav>
       <div className="menu-products">{products.map(p => <Link key={p.id} href={productUrl(p)} onClick={() => setMenu(false)}><Bottle product={p} size="thumb" /><span>{p.name}</span></Link>)}</div>
       <p>{brand.tagline}.</p>
     </Modal>
@@ -91,7 +91,7 @@ export default function StoreProvider({ children }: { children: React.ReactNode 
       {page && <div className="info-copy"><span className="eyebrow">{page.eyebrow}</span><h2>{page.title}</h2>
         {page.blocks.map((b, i) => b.p ? <p key={i}>{b.p}</p> : b.list ? <ul key={i} className="story-notes">{b.list.map(x => <li key={x}>{x}</li>)}</ul> : b.faq ? <div key={i} className="faq">{b.faq.map(([q, a]) => <details key={q}><summary>{q}<Plus size={16} /></summary><p>{a}</p></details>)}</div> : null)}
         {page.action === 'shop' && <Link className="button black" href="/#shop" onClick={() => setTopic(null)}>Explore the collection <ArrowUpRight size={15} /></Link>}
-        {page.action === 'contact' && <div className="contact-list"><a href={`mailto:${brand.email}`}><Mail size={16} />{brand.email}</a><a href={`tel:${digits(brand.phone)}`}><Phone size={16} />{brand.phone}</a><a href={`https://wa.me/${digits(brand.phone)}`} target="_blank" rel="noreferrer"><MessageCircle size={16} />Chat on WhatsApp</a></div>}
+        {page.action === 'contact' && <div className="contact-list"><a href={`mailto:${brand.email}`}><Mail size={16} />{brand.email}</a><a href={`tel:${digits(brand.phone)}`}><Phone size={16} />{brand.phone}</a><a href={`https://wa.me/${digits(brand.phone)}`} target="_blank" rel="noreferrer"><MessageCircle size={16} />Chat on WhatsApp</a><Link className="button black" href="/contact/" onClick={() => setTopic(null)}>Open contact page <ArrowUpRight size={15} /></Link></div>}
         {page.action === 'track' && <form className="track-form" onSubmit={e => { e.preventDefault(); if (order.trim()) window.location.href = `mailto:${brand.email}?subject=${encodeURIComponent(`Order status: ${order.trim()}`)}&body=${encodeURIComponent(`Hello, could you share the status of order ${order.trim()}? Thank you.`)}`; }}><input value={order} onChange={e => setOrder(e.target.value)} placeholder="Order number" aria-label="Order number" required /><button className="button black" type="submit">Request status <ArrowRight size={15} /></button></form>}
         {page.action === 'cookies' && <button className="button black" onClick={() => { setCart([]); try { localStorage.removeItem(brand.storageKey); } catch {} setToast('Your saved shopping bag has been cleared'); }}>Clear saved data</button>}
       </div>}
