@@ -1,0 +1,15 @@
+export type Family = 'All scents' | 'Warm & woody' | 'Fresh & citrus' | 'Soft & floral';
+export type Product = { id: string; name: string; mood: string; family: Family; price: number; previous?: number; cell: number; notes: string[]; description: string; isNew?: boolean };
+export const products: Product[] = [
+{ id:'solene',name:'Solène Morning Ray',mood:'Warmth of amber, subtle femininity',family:'Warm & woody',price:120,cell:3,notes:['Bergamot','Amber','Sandalwood'],description:'The warmth of the first light. A luminous amber composition softened by creamy woods and a bright touch of bergamot.',isNew:true },
+{ id:'noxen',name:'Noxen Silent Sweet',mood:'Strong, tender, sweet',family:'Soft & floral',price:110,cell:4,notes:['Rose','Vanilla','White musk'],description:'Soft rose and delicate vanilla, wrapped in a whisper of white musk. A quietly expressive scent that stays close.',isNew:true },
+{ id:'salvia',name:'Salvia Morning Fresh',mood:'Fresh, flowing, masculine',family:'Fresh & citrus',price:150,previous:176,cell:5,notes:['Lemon','Sage','Cedar'],description:'A clear, uplifting blend of citrus and green sage, grounded by dry cedarwood. Made for a fresh perspective.' },
+{ id:'elara',name:'Elara Gentle Strong',mood:'Romantic, gentle, sweet',family:'Soft & floral',price:100,cell:6,notes:['Peony','Rose','Musk'],description:'Airy petals meet soft, skin-like musk. A graceful floral fragrance with a quietly confident finish.' },
+{ id:'eclipse',name:'Eclipse Deep Night',mood:'Mysterious, powerful, captivating',family:'Warm & woody',price:99,cell:7,notes:['Cardamom','Oud','Amber'],description:'Spiced cardamom, warm amber and deep woods. An enveloping fragrance for the hours after sunset.' },
+{ id:'lavelle',name:'Lavelle Quiet Bloom',mood:'Airy, violet-soft, lingering',family:'Soft & floral',price:130,previous:153,cell:8,notes:['Lavender','Violet','White musk'],description:'A gentle violet bloom with aromatic lavender and a soft musky trail. Calm, considered and effortlessly personal.' },
+{ id:'velour',name:'Velour Dark Gold',mood:'Luxury, richness, warmth',family:'Warm & woody',price:120,cell:0,notes:['Saffron','Golden amber','Sandalwood'],description:'Golden amber and precious woods unfold around a touch of saffron. A rich signature with a smooth, warm finish.' },
+{ id:'atelier',name:'Atelier Soft Dawn',mood:'Green, radiant, effortless',family:'Fresh & citrus',price:115,cell:1,notes:['Neroli','Green tea','Cedar'],description:'Fresh neroli and delicate green tea meet softly textured woods. An easy, luminous everyday signature.' },
+{ id:'aurea',name:'Aurea Golden Petals',mood:'Floral, sunlit, expressive',family:'Soft & floral',price:125,cell:2,notes:['Orange blossom','Jasmine','Amber'],description:'Sunlit orange blossom and jasmine, warmed by amber. A radiant floral composition with an inviting golden glow.' }
+];
+export const families: Family[] = ['All scents','Warm & woody','Fresh & citrus','Soft & floral'];
+export const money = (amount: number) => new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:2}).format(amount);

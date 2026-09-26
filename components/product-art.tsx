@@ -1,0 +1,1 @@
+export default function ProductArt({cell, name, className=''}: {cell:number;name:string;className?:string}) { return <div role="img" aria-label={name} className={`product-art ${className}`} style={{backgroundPosition:`${(cell % 3)*50}% ${Math.floor(cell/3)*50}%`}} />; }
